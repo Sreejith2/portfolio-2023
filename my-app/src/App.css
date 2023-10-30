@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Playpen+Sans&family=Russo+One&display=swap');
+
+@keyframes slideInDown{
+    from{
+        transform: translateY(18.75rem);
+    }
+
+    to{
+        transform: translateY(0);
+    }
+}
+
+
+body{
+    background: #000000;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.middleContainer .card{
+    background-image: linear-gradient( 94.3deg,  rgba(26,33,64,1) 10.9%, rgba(81,84,115,1) 87.1% );
+    color:#fffdfd;
+    font-family: Russo One;
+    animation: slideInDown 1s ease-out 0s 1 normal both;
+}
+#proj{
+    text-decoration: none;
+    font-family: Russo One;
+    color: #f2ff00;
+}
+#contact{
+    /* background-color: #121212; */
+    color: aliceblue;
+}
+.brand{
+    font-family: Russo One,sans-serif;
+}
+.link{
+    font-family: Oswald,sans-serif;
+}
+.username{
+    font-family: Russo One,sans-serif;
+    color: rgb(13, 0, 255);
+    font-size: 4rem;
+}
+.intro{
+    font-family: Russo One,sans-serif;
+    color: #fffdfd;
+    font-size: 4rem;
+}
+.about{
+    color: #fffdfd;
+    font-family: Russo One;
+}
+.desc{
+    color: #fffdfd;
+    font-family: Playpen Sans;
+    padding: 7%;
+}
+.prof {
+    width: 23rem; 
+    height: 23rem; 
+    margin: 12% auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.topContainer{
+    /* background-color: #121212; */
+    padding: 5%;
+}
+.middleContainer{
+    padding: 5%;
+    /* background-color:#121212; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    padding: 5%;
+    gap: 1.25rem;
+}
+.bottomContainer{
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    gap:.5rem;
+    height: auto;
+    font-family: Russo One;
+}
+.button{
+    border-radius: 5px;
+    font-size: 1rem;
+    font-family: Russo One;
+    border:none;
+    background-image: linear-gradient( 135deg, #FDEB71 10%, #F8D800 100%);
+    width: 12.5rem;
+    height: 3.125rem;
+    cursor: pointer;
+    margin: 2.5rem;
+}
+
+.socialMediaLinks{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 100%;
+}
+.footerContainer a{
+    text-decoration: none;
+}
+@media screen and (max-width: 768px) {
+    .username, .intro {
+        font-size: 2.81rem;
+    }
+    .prof {
+        width: 20rem; 
+        height: 20rem; 
+        margin: 0 auto; 
+        position: static; 
+        transform: none; 
+    }
+    .middleContainer{
+        background-color: #2b3035;
+        margin-top: 11.25rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: auto;
+        gap: 1.25rem;
+    }
+    .bottomContainer{
+        margin-top: 5rem;
+        margin-bottom: 2rem;
+    }
+    .desc{
+        padding: 3%;
+    }
+}
