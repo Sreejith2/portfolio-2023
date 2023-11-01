@@ -9,7 +9,14 @@
         transform: translateY(0);
     }
 }
-
+@keyframes zoomIn {
+    from {
+      transform: scale(0.5);
+    }
+    to {
+      transform: scale(1);
+    }
+}
 
 body{
     background: #000000;  /* fallback for old browsers */
@@ -21,7 +28,7 @@ body{
     background-image: linear-gradient( 94.3deg,  rgba(26,33,64,1) 10.9%, rgba(81,84,115,1) 87.1% );
     color:#fffdfd;
     font-family: Russo One;
-    animation: slideInDown 1s ease-out 0s 1 normal both;
+    animation: zoomIn 1s ease-out 0s 1 normal both;
 }
 #proj{
     text-decoration: none;
