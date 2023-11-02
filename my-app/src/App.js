@@ -15,7 +15,7 @@ function App() {
       <div id="project" className="middleContainer">
         <Project title="Bus-Ticket-Booking-System" text="MogoDB,Node.js,Express,EJS" img="assets/img/Bus.png" link="https://github.com/Sreejith2/DBMS-Project.git"/>
         <Project title="Amazone-Price-Tracker" text="Python" img="assets/img/amazone.jpg" link="https://github.com/Sreejith2/Amazon_Price_Tracker.git"/>
-        <Project title="Spotify-Play-List-Maker" text="Python" img="assets/img/spotify.jpg" link="https://github.com/Sreejith2/Spotifyplaylist.git"/>
+        <Project title="Spotify-Backend" text="Node.js,Express" img="assets/img/spotify.jpg" link="https://github.com/Sreejith2/Spotify-Backend.git"/>
       </div>
       <div id="contact" className="bottomContainer">
         <Email/>
