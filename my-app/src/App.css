@@ -25,10 +25,15 @@ body{
 }
 
 .middleContainer .card{
-    background-image: linear-gradient( 94.3deg,  rgba(26,33,64,1) 10.9%, rgba(81,84,115,1) 87.1% );
+/*     background-image: linear-gradient( 94.3deg,  rgba(26,33,64,1) 10.9%, rgba(81,84,115,1) 87.1% );
     color:#fffdfd;
     font-family: Russo One;
     animation: zoomIn 1s ease-out 0s 1 normal both;
+    box-shadow: 20px 20px 20px rgba(0,0,0,0.5); */
+    background: rgba(255,255,255,0.1);
+    color:#fffdfd;
+    font-family: Russo One;
+    animation: zoomIn 1s ease-in-out 0s 1 normal both;
     box-shadow: 20px 20px 20px rgba(0,0,0,0.5);
 }
 #proj{
