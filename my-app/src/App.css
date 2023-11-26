@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald&family=Playpen+Sans&family=Russo+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&display=swap');
 
 @keyframes slideInDown{
     from{
@@ -52,12 +53,12 @@ body{
     font-family: Oswald,sans-serif;
 }
 .username{
-    font-family: Russo One,sans-serif;
-    color: rgb(13, 0, 255);
+    font-family:Carter One,sans-serif;
+    color: #a052f4;
     font-size: 4rem;
 }
 .intro{
-    font-family: Russo One,sans-serif;
+    font-family: Carter One,sans-serif;
     color: #fffdfd;
     font-size: 4rem;
 }
