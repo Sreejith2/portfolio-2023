@@ -9,7 +9,7 @@ function Home() {
       <Row className="mt-5">
         <Col className="text-center">
           <h1><span className='intro'>Hi I am</span><span className='username'> Sreejith</span></h1>
-          <h2 className='about'>A <span style={{color:"orange"}}>{text}</span><Cursor/></h2>
+          <h2 className='about'>A <span style={{color:"#f2ff00"}}>{text}</span><Cursor/></h2>
           <p className='desc'>I am deeply passionate about web development, with a special love for backend development. Crafting robust, efficient systems and databases that power the digital world is where my heart truly lies. I find immense satisfaction in building the unseen backbone of websites and applications.</p>
         </Col>
       </Row>
